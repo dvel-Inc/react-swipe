@@ -91,6 +91,14 @@ class ReactSwipe extends Component {
     return this.swipe.getNumSlides();
   }
 
+  lockSlide() {
+    return this.swipe.lockSlide();
+  }
+
+  unlockSlide() {
+    return this.swipe.unlockSlide();
+  }
+
   render() {
     const { id, className, style, children } = this.props;
 
